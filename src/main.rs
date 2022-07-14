@@ -1,3 +1,6 @@
+mod vars;
+mod stack_heap;
 fn main() {
-    println!("Hello, world!");
+    // vars::vars_run();
+    stack_heap::run();
 }
