@@ -13,7 +13,7 @@ pub fn run(){
 }
 
 fn print_os_info(os: OS) {
-    match os {
+    match os {//パターマッチング：switchと同じ
         OS::Windows(year, who) => {
             println!("{} {}", year,who);
         }
